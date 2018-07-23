@@ -1,0 +1,8 @@
+.banner,.banner img{width: 100%;}
+.js .row .col-md-9 .box{padding: 0 0 30px;border-bottom: 1px solid #bbb;}
+.js .row .col-md-9 .box h4{margin-bottom: 0;}
+.js .row .col-md-9 .box i{color: #A9A9A9;font-size: 13px;font-style: normal;}
+.js .row .col-md-3 img{width: 100%;margin-top: 30px;}
+
+.js .row .col-md-9 p{padding: 10px 0;color: #808080;}
+.js .row .col-md-9 span{width: 100%;display: inline-block;margin-bottom: 10px;color: #2d2d2d;font-weight: 700;}

@@ -1,0 +1,25 @@
+.banner{height: 500px;overflow: hidden;position: relative;}
+.banner img{position: absolute;top: -30%;}
+.font{position: absolute;top: 38%;left:8%;z-index: 9999;opacity:1;transition: all 2s;}
+.font span{margin-bottom:10px;color: #fff;text-align: center;line-height: 65px;text-shadow: 2px 2px 5px #5d5d5d;font-size: 38px;display: table;width: 100%;}
+
+.container{margin: 50px auto;}
+.container .row h4{text-align: center;font-size: 22px;color: #000;}
+.hr{width: 2%;display: block;border: 0.5px solid #000;margin: auto;}
+
+.container .row .col-xs-12 .img{width: 100%;}
+.container .row .col-xs-12 .img img{width: 100%;}
+.container .row .col-xs-12 .img a{width: 100%;text-align: center;display: block;font-size: 18px;color: #959595;margin: 10px auto;}
+.container .row .col-xs-12 .img span{width: 100%;display: block;text-align: center;}
+.container .row .col-xs-12 .img i{color: #959595;margin:10px auto;display: block;text-align: center;}
+.container .row .col-xs-12 {margin: 20px auto;}
+.box{width: 100%;
+    border: 1px solid #959595;margin-bottom: 20px;}
+.box h3{font-size: 20px;
+    margin: 10px 13px;}
+.box p{margin: 0 15px;
+    color: #4f4f4f;}
+.box span{    margin: 10px 15px;
+    display: block;
+    color: #747474;}
+.box:hover{border-color:#000;cursor: pointer;}

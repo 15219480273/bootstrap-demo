@@ -1,0 +1,44 @@
+.container .row h2{font-family: 黑体;font-size: 24px;font-weight: bold;font-style: normal;color: #333333;display: block;margin: 0;}
+.container .row > span{font-family:宋体;font-size: 28px;font-weight: normal;font-style: normal;color: #9b6c3e;display: block;padding: 2px;}
+
+
+.story{margin-bottom: 100px;}
+.story .col-sm-7{padding: 105px 0 0 125px;}
+.story .img{width: 100%;margin-top: -30px;}
+.story .img img{width: 100%;border: 20px solid rgba(255,255,255,1);box-shadow: 1px 1px 15px #bbbbbb;}
+.story .col-sm-7 p{font-size:13px;color:#808080;line-height: 2;font-family: 仿宋_gb2312;letter-spacing: 1px;margin-top: 80px;}
+
+
+
+.lg{width: 100%;background: url(../img/banner4.jpg)no-repeat;background-attachment: fixed;background-size: 100%;}
+.lg .box{width: 100%;display: table;margin: 100px auto;background: #fff;}
+.lg .box .col-xs-12 p{margin: 0 0 45px;font-family: 微软雅黑;font-size: 22px;color: #333333;}
+.lg .box .col-xs-12  span{font-size: 14px;color: #666;margin-bottom: 15px;display: table;}
+
+.product{margin:40px auto;}
+.product .row .col-xs-12 img{width:100%}
+.product .row .col-xs-12 .col-xs-6{margin-top: 20px;}
+.product .row .col-xs-12 .col-xs-6 a{line-height: 2;display: block;color: #5e5e5e;text-align: center;}
+.product .row .col-xs-12 .col-xs-6 span{line-height: 2;color: #777;font-family: 宋体;    text-align: center;display: block;}
+
+.welcome{display: table;display: none;transition: all 1s;}
+.black{width: 100%;height: 100%;background: #000000;position: fixed;z-index: 10;top: 0;opacity: 0.8;}
+.wel{width: 30%;height: 45%;background: #fff;border-radius: 10px;position: fixed;    z-index: 999;top: 30%;left: 35%;}
+.wel .img1 img{width: 495px;margin: 37px auto;display: block;}
+.wel i{position: absolute;top: 14px;right: 20px;}
+.wel h1{position: absolute;z-index: 9999;color: #fff;font-size: 24px;text-align: center;line-height: 2;top: 90px;left: 75px;}
+
+@media(max-width:768px){
+	.container-fluid{background-position: 60% 0;}
+	.carousel {top: 170px;left: 120px;width: 50%;}
+	.navbar-header{background: #000;}
+	.navbar-toggle{float: left;margin-top: 15px;margin-left: 15px;margin-bottom: 15px;}
+	.navbar-brand{ top: -5px;left: 33%;}
+	.navbar-nav{margin: 0;}
+	.icon{right: 10px;}
+	.icon li {margin: 0px 5px;}
+	.icon li i{color: #cccccc;}
+	.icon li i:hover{color: #959595;}
+	.navbar-nav>li>a{color: #000;}
+	.story .col-sm-7{padding: 30px 0 0 30px;}
+}

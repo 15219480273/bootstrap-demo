@@ -1,0 +1,401 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="HXC" content="汽车">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="../static/img/lg.ico" rel="shortcut icon">
+    <title>首页</title>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/header_footer.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/material.min.css">
+    <style type="text/css">
+        *{margin: 0;padding: 0;}
+        a{text-decoration: none;}
+        ul,li{list-style: none;}
+        body{font-size: 14px;font-family: "微软雅黑";user-select:none;}
+
+    </style>
+
+</head>
+<body>
+	<!--导航-->
+	<nav class="navbar navbar-default" role="navigation">
+	    <div class="container-fluid">
+	    <div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse"
+	                data-target="#example-navbar-collapse">
+	            <span class="sr-only">切换导航</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	        </button>
+	        <a class="navbar-brand" href="#"><img src="../static/img/logo.png"></a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+	        <ul class="nav navbar-nav">
+	            <li class="hover"><a href="index.html">商店首页</a></li>
+	            <li><a href="product.html">所有商品</a></li>
+	            <li><a href="pay.html">支付方式</a></li>
+	            <li><a href="about.html">关于花语</a></li>
+	            <li><a href="dian.html">线下门店</a></li>
+	        </ul>
+	    </div>
+	    </div>
+	</nav>
+	<!--banner-->
+	<div id="myCarousel" class="carousel slide">
+		<!-- 轮播（Carousel）指标 -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+	</ol>   
+		<!-- 轮播（Carousel）项目 -->
+	<div class="carousel-inner">
+		<div class="font">
+			<h1>HELLO！FLOWER<BR>花的世界</h1>
+		</div>
+		<div class="item active">
+			<img src="../static/img/banner1.jpg" alt="First slide">
+		</div>
+		<div class="item">
+			<img src="../static/img/banner2.jpg" alt="Second slide">
+		</div>
+		<div class="item">
+			<img src="../static/img/banner1.jpg" alt="Third slide">
+		</div>
+	</div>
+		<!-- 轮播（Carousel）导航 -->
+	<a class="carousel-control left" href="#myCarousel" 
+	   data-slide="prev">&lsaquo;</a>
+	<a class="carousel-control right" href="#myCarousel" 
+	   data-slide="next">&rsaquo;</a>
+</div>
+	<!--门面图片-->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<div class="box">
+					<img src="../static/img/Facade1.jpg" />
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<div class="box">
+					<img src="../static/img/Facade2.jpg" />
+				</div>
+			</div>
+			
+		</div>
+	</div>
+   	<!--今日上新-->
+   	<div class="container pro">
+   		<div class="row"> 
+   		<div class="box1">
+	   		<h4>今日上新</h4>	
+	   		<i>New product</i>
+	   		<button>+查看更多</button>
+   		</div>
+   		<div class="col-xs-6 col-md-3">
+   			<div class="pro_box">
+		   		<img src="../static/img/pro1.jpg" />
+		   		<a>植物花卉001</a>
+		   		<b>￥5900</b>
+	   		</div>
+	   	</div>
+	   	<div class="col-xs-6 col-md-3">
+   			<div class="pro_box">
+		   		<img src="../static/img/pro2.jpg" />
+		   		<a>植物花卉002</a>
+		   		<b>￥5900</b>
+	   		</div>
+	   	</div>
+	   	<div class="col-xs-6 col-md-3">
+   			<div class="pro_box">
+		   		<img src="../static/img/pro3.jpg" />
+		   		<a>植物花卉003</a>
+		   		<b>￥5900</b>
+	   		</div>
+	   	</div>
+	   	<div class="col-xs-6 col-md-3">
+   			<div class="pro_box">
+		   		<img src="../static/img/pro4.jpg" />
+		   		<a>植物花卉004</a>
+		   		<b>￥5900</b>
+	   		</div>
+	   	</div>
+	  
+   		</div>
+   		
+   	</div>
+   	<!--限时促销-->
+   	<div class="container cheap">
+   		<div class="row"> 
+	   		<div class="box1">
+		   		<h4>限时促销</h4>	
+		   		<i>sales promotion</i>
+		   		<button>+查看更多</button>
+	   		</div>
+	   		<div class="col-xs-12 col-md-6">
+	   			<div class="cheap_box">		
+	   				<ul class="ul">
+						<li class="time"></li>
+						<li class="time">天</li>
+						<li class="time"></li>
+						<li class="time">时</li>
+						<li class="time"></li>
+						<li class="time">分</li>
+						<li class="time"></li>
+						<li class="time">秒</li>
+					</ul>
+	   				<img src="../static/img/cheap_pro1.jpg" />
+	   			</div>
+	   		</div>
+   			<div class="col-xs-12 col-md-6">
+	   			<div class="cheap_box">	
+	   				<img src="../static/img/cheap_pro2.jpg" />
+	   				<ul class="ul">
+						<li class="time"></li>
+						<li class="time">天</li>
+						<li class="time"></li>
+						<li class="time">时</li>
+						<li class="time"></li>
+						<li class="time">分</li>
+						<li class="time"></li>
+						<li class="time">秒</li>
+					</ul>
+	   			</div>
+	   		</div>
+   		</div>
+   	</div>
+   	<!--花语-->
+   	<div class="container talk">
+   		<div class="row">
+   			<div class="col-xs-12 col-md-6">
+   				<div class="talk_box">
+   					<img src="../static/img/usbanner.jpg" />
+   				</div>
+   			</div>
+   			<div class="col-xs-12 col-md-6">
+   				<img src="../static/img/logo.png" class="logo1" />
+   				<p>花语隶属爱花居电子商务有限公司，专注中高端花艺设计，是一家已经发展16年的精品花店，在鲜花礼品行业具有广泛的知名度。为满足客户的个性需求，主营业务涵盖鲜花、永生花、礼篮、婚庆宴会用花等产品。爱花居以最快的配送速度，最优的产品质量，最完美的定制服务，最极致的客户体验在广大消费者中获得良好的口碑，深受客户认可与青睐，成为鲜花行业的领跑者。</p>
+   			</div>
+   		</div>
+   	</div>
+    <!--装点家园-->
+    <div class="container home">
+    	<div class="row">
+    		<div class="box1">
+		   		<h4>装点家园</h4>	
+		   		<i>decorate the homes</i>
+		   		<button>+查看更多</button>
+	   		</div>
+    		<div class="col-xs-6 col-md-3">
+    			<div class="home_box">
+    				<img src="../static/img/pro1.jpg" />
+    				<div class="hr"></div>
+    				<a>植物花卉008</a>
+    				<b>￥5900</b>
+    			</div>
+    		</div>
+    		<div class="col-xs-6 col-md-3">
+    			<div class="home_box">
+    				<a>植物花卉018</a>
+    				<b>￥700</b>
+    				<div class="hr"></div>
+    				<img src="../static/img/pro2.jpg" />
+    			</div>
+    		</div>
+    		<div class="col-xs-6 col-md-3">
+    			<div class="home_box">
+    				<img src="../static/img/pro3.jpg" />
+    				<div class="hr"></div>
+    				<a>植物花卉238</a>
+    				<b>￥654</b>
+    			</div>
+    		</div>
+    		<div class="col-xs-6 col-md-3">
+    			<div class="home_box">
+    				<a>植物花卉020</a>
+    				<b>￥2400</b>
+    				<div class="hr"></div>
+    				<img src="../static/img/pro4.jpg" />
+    			</div>
+    		</div>
+    	
+    	</div>
+    </div>
+    <!--新闻资讯-->
+    <div class="container news">
+    	<div class="row">
+    		<div class="col-xs-12 col-sm-8">
+    			<div class="new_box1">
+    				<div class="col-xs-12 col-sm-5">
+    					<img src="../static/img/new1_img.jpg" />
+    				</div>
+    				<div class="col-xs-12 col-sm-7">
+    					<h4>山中花店的活动中 稀有种子如何获得？</h4>
+    					<i>发布日期：2017-05-23</i>
+    					<p>从一九四七年巴黎蒙田大街30号New Look的展出开始，Dior就成为高级女装的代名词, 继承了法国高级女装的传统，始终保持华丽的设计路线，做工精细，迎合上流社会成熟女性的审...</p>
+    				</div>
+    			</div>
+    			<div class="new_box1">
+    				<div class="col-xs-12 col-sm-5">
+    					<img src="../static/img/new2_img.jpg" />
+    				</div>
+    				<div class="col-xs-12 col-sm-7">
+    					<h4>天气干燥，花店老板推荐制氧绿植</h4>
+    					<i>发布日期：2017-05-23</i>
+    					<p>秋天的拉萨，天气比较干燥，这个时候在家里养一些可以制造氧气和水分的植物大有好处。记者走访多个花店后发现，很多店老板都会同时提到一种制氧植物——红豆杉。红豆杉有“植物增氧机”之称...</p>
+    				</div>
+    			</div>
+    		
+    		</div>
+    		<div class="col-xs-12 col-sm-4">
+    			<img src="../static/img/new_banner.jpg" />
+    		</div>
+    	</div>
+    </div>
+    <!--优点-->
+    <div class="container good">
+    	<div class="row">
+    		<div class="col-xs-12 col-sm-3">
+    			<img src="../static/img/car.png" />
+    			<p>满1000元全国包邮</p>
+    			<i>全场订单满1000元全国包邮</i>
+    		</div>
+    		<div class="col-xs-12 col-sm-3">
+    			<img src="../static/img/gift.png" />
+    			<p>下单送精美礼品</p>
+    			<i>本店购买任意商品赠送精美礼品</i>
+    		</div>
+    	
+    	<div class="col-xs-12 col-sm-3">
+    			<img src="../static/img/people.png" />
+    			<p>贴心的售后服务</p>
+    			<i>7x24小时售后随时为您服务</i>
+    		</div>
+    	
+    	<div class="col-xs-12 col-sm-3">
+    			<img src="../static/img/discount.png" />
+    			<p>店铺优惠劵</p>
+    			<i>每日整点可领取限量优惠劵</i>
+    		</div>
+    	
+    	</div>
+    </div>
+    <!--页脚-->
+    <div class="big hidden-xs">
+    <div class="container footer">
+    	<div class="row one">
+    		<div class="col-md-3">
+    			<span>Service</span>
+    			<ul>
+    				<li><a href="">消費者保障服务</a></li>
+    				<li><a href="">七天无理由退款</a></li>
+    				<li><a href="">假一赔三</a></li>
+    			</ul>
+    			
+    		</div>
+    		<div class="col-md-3">
+    			<span>Online Payment</span>
+    				<li><a href="">非质量问题谢绝退换，如有质量问题，本店承担运费调</a></li>   				
+    		</div>
+    		<div class="col-md-3">
+    			<span>Service</span>
+    			<a href="">本店商品均为易碎品，非质量问题谢绝退换，如有质量问题，本店承担运费调换</a>
+    		</div>
+    		<div class="col-md-3">
+    			<img src="../static/img/logo.png" />
+    		</div>
+    	</div>
+    	<div class="row" style="padding-top: 70px;padding-bottom: 20px;">
+    		<div class="col-md-3">
+    			<span>关于产品<i>about color</i></span>    			
+    			<a>所有商品均为实物拍摄，各浏览器显示有所不同，对此要求高的买家慎拍</a>
+    		</div>
+    		<div class="col-md-3">
+    			<span>关于退货<i>about change</i></span>
+				<a>所有商品均为实物拍摄，各浏览器显示有所不同，对此要求高的买家慎拍</a>
+    		</div>
+    		<div class="col-md-3">
+    			<span>关于产品<i>about product</i></span>
+				<a>本店商品均为易碎品，非质量问题谢绝退换，如有质量问题，本店承担运费调换</a>
+    		</div>
+    		<div class="col-md-3">
+    			<span>扫码关注<i>author</i></span>
+    			<img src="../static/img/author.png" class="img" />
+				<a>多多关注</a>
+    		</div>
+    	</div>
+    </div>
+   	</div>
+   
+    <footer>
+    	Copyright © 2010-2015花语文化传播有限公司 All rights reserved
+    </footer>
+    
+    
+    <script src="../static/js/jquery-1.11.3.min.js"></script>
+    <script src="../static/js/material.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <!--<script type="text/javascript" src="../static/js/all.js" ></script>-->
+    <script type="text/javascript">
+//	window.onload =  function(){
+//		
+//	}
+	function oDouble(num)
+		{
+			if(num<10)
+			{
+				return '0'+num;
+			}
+			else
+			{
+				return num;
+			}
+		}
+	window.onload=function()
+{
+	
+	var font = document.getElementsByClassName('font')[0];
+		font.style.opacity = 1 ;
+		
+		
+	var ul1=document.getElementsByClassName('ul')[0];
+	var ul2=document.getElementsByClassName('ul')[1];
+	
+	var aDiv1=ul1.getElementsByTagName('li');
+	var aDiv2=ul2.getElementsByTagName('li');
+	
+	var aP=document.getElementsByTagName('p')[0];
+	var i=846000;
+	function times()
+	{
+		var oDay=i / (24*60*60)
+		var oHours=i/(60*60)
+		var oPoints=(i/60)/60
+		var oSeconds=i %60
+	
+		if(i>=0)
+		{
+			aDiv1[0].innerHTML=oDouble(parseInt(oDay));
+			aDiv1[2].innerHTML=oDouble(parseInt(oHours));
+			aDiv1[4].innerHTML=oDouble(parseInt(oPoints));
+			aDiv1[6].innerHTML=oDouble(oSeconds);
+			
+			aDiv2[0].innerHTML=oDouble(parseInt(oDay));
+			aDiv2[2].innerHTML=oDouble(parseInt(oHours));
+			aDiv2[4].innerHTML=oDouble(parseInt(oPoints));
+			aDiv2[6].innerHTML=oDouble(oSeconds);
+		}
+		i--
+	}
+	setInterval(times,1000)
+	times()
+};
+	</script>
+
+</body>
+</html>

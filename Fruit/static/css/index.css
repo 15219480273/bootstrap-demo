@@ -1,0 +1,97 @@
+
+.banner{height: 900px;overflow: hidden;position: relative;}
+.banner img{position: absolute;top: -30%;}
+.font{position: absolute;top: 40%;left: 22%;z-index: 9999;opacity:1;transition: all 2s;}
+.font span{color: #fff;text-align: center;line-height: 65px;text-shadow: 2px 2px 5px #5d5d5d;font-size: 38px;display: table;width: 100%;}
+
+.container{margin: 40px auto;}
+.container .row .col-xs-6 .img img{width: 20%;margin:20px  auto;display: block;}
+.container .row .col-xs-6:hover .img img{-webkit-animation:test 0.5s ease-in 1;}
+.container .row .col-xs-6 p{text-align: center;font-size: 16px;color: rgba(31,37,38,.75);margin:20px auto 0;}
+.container .row .col-xs-6 p:last-child{font-size: 14px;}
+ @-webkit-keyframes test{
+    0%{transform:translate(0,0px)}
+    25%{transform:translate(0,-15px)} 
+    50%{transform:translate(0,0px)}            
+    75%{transform:translate(0,-5px)}            
+    100%{transform:translate(0,0px)}
+}
+
+.banner2{width: 100%;}
+.banner2 .col-xs-12{padding: 0;}     
+.banner2 .box{width: 100%;height: 400px;overflow: hidden;position: relative;}
+.banner2 .box img{position: absolute;width: 100%;top: -25%;}
+.banner2 .box h3{position: absolute;font-size: 20px;color: #fff;line-height: 30px;bottom: 0;left: 25px;}
+.bg-color{width: 100%;height: 100%;display: table;background-color: rgba(9, 9, 9, 0.31);position: absolute;top: 0;left: 0;}
+
+.container .row h4{text-align: center;font-size: 22px;color: #000;}
+.hr{width: 2%;display: block;border: 0.5px solid #000;margin: auto;}
+.col-sm-4{margin: 50px auto 0px;}
+.probox{width: 100%;cursor: pointer;}
+.tuijian .probox:hover{-webkit-animation:test 0.5s ease-in 1;padding: 10px 10px;box-shadow: 1px 1px 30px #cecece;}
+.probox img{display: block;margin: auto;width: 100%;}
+.probox a{font-size: 16px;color: #333;display: block;text-align: center;margin: 10px auto;} 
+.probox span{font-size: 15px;color: red;text-align: center;display: block;margin-bottom: 10px;}
+
+.mbox{width: 100%;background: url(../img/banner4.jpg)no-repeat;background-size: cover;background-attachment: fixed;height: 700px;}
+.mbox .col-sm-4{margin: 0;}
+.mbox .col-sm-4 img{width: 100%;}
+.mbox .col-sm-8{    display: block;
+    background: #fff;}
+.mbox .col-sm-8 p{margin-top: 30px;    line-height: 1.8;
+    color: #4e4e4e;
+    font-size: 16px;}
+.mbox h4{margin: 80px auto 10px;color: #fff!important;}
+.mbox .hr{margin-bottom: 80px;border: 0.5px solid #fff;}
+
+.fruit .probox img:hover{-webkit-animation:test 0.5s ease-in 1;}
+.fruit .col-sm-3{margin: 30px auto;}
+.fruit  .probox .img{height: 200px;}
+.fruit  .probox .img img{width: 100%!important;}
+.fruit .probox p{margin: 5px auto 5px!important;}
+
+.kehu{width: 100%;background: url(../img/kehu.png)no-repeat;background-size: cover;}
+.kehu h4{margin: 80px auto 10px;color: #fff!important;}
+.kehu .hr{margin-bottom: 80px;border: 0.5px solid #fff;}
+.kehu p{width: 50%;display: block;margin: 30px auto;text-align: center;font-size: 24px;color: #fff;font-weight: bold;line-height: 1.5;}
+
+.news .col-xs-12{cursor: pointer;}
+.news .col-xs-12 .newimg{width: 100%;position: relative;}
+.news .col-xs-12 .newimg img{width: 100%;}
+.news .col-xs-12:hover .newcolor{width: 90%;height: 90%;top: 13px;left: 18px;opacity: 1;}
+.news .col-xs-12:hover .newimg i{opacity: 1;}
+.newcolor{width: 100%;
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    height: 100%;transition: all 0.25s;opacity: 0;}
+.news .newimg i{width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 40%;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 37px;
+    color: #fff;
+    left: 45%;opacity: 0;}
+.news .down h5{color: #333;
+    font-size: 18px;
+    margin: 10px auto 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d4d4d4;}
+.news .down h5 b{    font-weight: normal;
+    color: rgb(153, 153, 153);
+    font-size: 14px;}
+.orange{    width: 6%;
+    border: 1px solid #f7b6a3;
+    position: absolute;
+    bottom: 69px;transition: all 0.5s;}
+.news .col-xs-12:hover .orange{width: 92%;}
+.news .down p{font-family: "Microsoft YaHei", 微软雅黑, MicrosoftJhengHei, 华文细黑, STHeiti, MingLiu;
+    color: rgb(153, 153, 153);margin-top: 5px;}
+
+
+

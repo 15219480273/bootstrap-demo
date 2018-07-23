@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>120秒倒计时</title>
+<style>
+ul li{float:left;margin:3px;width:30px;height:20px;background:#CCC; text-align:center; font-size:12px; line-height:20px;}
+</style>
+<script type="text/javascript">
+function oDouble(num)
+{
+	if(num<10)
+	{
+		return '0'+num;
+	}
+	else
+	{
+		return num;
+	}
+}
+window.onload=function()
+{
+	var aDiv=document.getElementsByTagName('li');
+	var aP=document.getElementsByTagName('p')[0];
+	var i=846000;
+	function times()
+	{
+		var oDay=i / (24*60*60)
+		var oHours=i/(60*60)
+		var oPoints=(i/60)/60
+		var oSeconds=i %60
+	
+		if(i>=0)
+		{
+			aDiv[0].innerHTML=oDouble(parseInt(oDay));
+			aDiv[2].innerHTML=oDouble(parseInt(oHours));
+			aDiv[4].innerHTML=oDouble(parseInt(oPoints));
+			aDiv[6].innerHTML=oDouble(oSeconds);
+		}
+		i--
+	}
+	setInterval(times,1000)
+	times()
+};
+</script>
+</head>
+<body>
+	<ul>
+		<li class="time"></li>
+		<li class="time">天</li>
+		<li class="time"></li>
+		<li class="time">时</li>
+		<li class="time"></li>
+		<li class="time">分</li>
+		<li class="time"></li>
+		<li class="time">秒</li>
+	</ul>
+<p> </p>
+</body>
+</html>

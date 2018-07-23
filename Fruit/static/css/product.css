@@ -1,0 +1,21 @@
+.banner{height: 500px;overflow: hidden;position: relative;}
+.banner img{position: absolute;top: -30%;}
+.font{position: absolute;top: 38%;left:8%;z-index: 9999;opacity:1;transition: all 2s;}
+.font span{margin-bottom:10px;color: #fff;text-align: center;line-height: 65px;text-shadow: 2px 2px 5px #5d5d5d;font-size: 38px;display: table;width: 100%;}
+
+.container{margin: 50px auto;}
+.container .row h4{text-align: center;font-size: 22px;color: #000;}
+.hr{width: 2%;display: block;border: 0.5px solid #000;margin: auto;}
+.col-sm-4{margin: 50px auto 0px;}
+.probox{width: 100%;cursor: pointer;}
+.tuijian .probox:hover{-webkit-animation:test 0.5s ease-in 1;padding: 10px 10px;box-shadow: 1px 1px 30px #cecece;}
+.probox img{display: block;margin: auto;width: 100%;}
+.probox a{font-size: 16px;color: #333;display: block;text-align: center;margin: 10px auto;}
+.probox span{font-size: 15px;color: red;text-align: center;display: block;margin-bottom: 10px;}
+@-webkit-keyframes test{
+    0%{transform:translate(0,0px)}
+    25%{transform:translate(0,-15px)}
+    50%{transform:translate(0,0px)}            
+    75%{transform:translate(0,-5px)}            
+    100%{transform:translate(0,0px)}
+}

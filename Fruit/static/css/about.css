@@ -1,0 +1,73 @@
+.banner{height: 500px;overflow: hidden;position: relative;}
+.banner img{position: absolute;top: -30%;}
+.font{position: absolute;top: 38%;left:8%;z-index: 9999;opacity:1;transition: all 2s;}
+.font span{margin-bottom:10px;color: #fff;text-align: center;line-height: 65px;text-shadow: 2px 2px 5px #5d5d5d;font-size: 38px;display: table;width: 100%;}
+
+.container{margin: 50px auto;}
+.container .row h4{text-align: center;font-size: 22px;color: #000;}
+.hr{width: 2%;display: block;border: 0.5px solid #000;margin: auto;}
+
+
+.container .row .col-xs-12{margin-top: 30px;}
+.container .row .col-sm-5 img{width: 100%;}
+.container .row .col-sm-7 h5{font-size: 23px;
+    color: #525252;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;}
+.container .row .col-sm-7 span{width: 100%;font-size: 14px;
+    display: block;
+    margin: 10px auto;
+    color: #525252;}
+.container .row .col-sm-7 ul{width: 100%;margin-top: 50px;
+    display: inline-flex;}
+.container .row .col-sm-7 ul li .imgbox{width: 100%;min-height: 170px;}
+.container .row .col-sm-7 ul li .imgbox img{width: 100%;}
+.container .row .col-sm-7 ul li a{display: block;
+    margin: 12px auto;
+    color: #525252;
+    text-align: center;}
+.container .row .col-sm-7 ul li span{text-align: center;
+    color: #959595;}
+
+.bigbox h4{color: #fff;text-align: center;}
+.bigbox .hr{border-color: #fff;}
+.bigbox{width: 100%;height: 500px;background:url(../img/aboutbanner.jpg);position: relative;background-attachment: fixed;}
+.bg-color{position: absolute;top: 0;width: 100%;height: 100%;background: #8e8e8e;opacity: 0.3;display: block;}
+.bigbox .container .row .col-xs-12 .xiang{width:100%;background: #000;
+    opacity: 0.7;display: table;    padding-left: 40px;}
+.bigbox .container .row .col-xs-12 img{float: left;
+    width: 10%;
+    margin: 40px auto;}
+.bigbox .font1{display: block;
+    margin: 35px 0 0 70px;}
+.bigbox .font1 h3{float: left;
+    text-align: left;
+    font-size: 24px;
+    color: rgb(255,162,0);
+    width: 85%;
+    margin: 0;}
+.bigbox .font1 p{color: rgb(204, 204, 204);
+    width: 100%;
+    display: block;
+    float: left;}
+
+.teambox .col-xs-6{position: relative;margin-top: 30px;}
+.teambox .col-xs-6 .teamimg{width: 100%;
+    overflow: hidden;
+    display: table;}
+.teambox .col-xs-6 .teamimg img{width: 100%;}
+.teambox .col-xs-6 .team{position: absolute;
+    bottom: 10px;
+    background: #efefef;
+    opacity: 0.8;
+    width: 90%;
+    left: 20px;}
+.teambox .col-xs-6 .team a{display: block;
+    text-align: center;
+    width: 99%;
+    margin: 10px auto;
+    color: #353535;
+    font-size: 18px;}
+.teambox .col-xs-6 .team span{text-align: center;
+    display: block;
+    margin-bottom: 10px;}
